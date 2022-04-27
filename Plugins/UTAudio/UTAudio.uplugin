@@ -1,0 +1,39 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "[Unreal Toolbox] Audio",
+	"Description": "An audio system used to manage the basic properties of audio files",
+	"Category": "Unreal Toolbox",
+	"CreatedBy": "Henry Jooste",
+	"CreatedByURL": "",
+	"DocsURL": "https://github.com/hfjooste/UT-Audio",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UTAudio",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"BlacklistPlatforms": [
+				"IOS",
+				"Android",
+				"HTML5",
+				"TVOS",
+				"Mac",
+				"Linux",
+				"LinuxAArch64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "UTLogger",
+			"Enabled": true
+		}
+	]
+}
