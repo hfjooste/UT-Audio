@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0.0",
+	"VersionName": "1.0.1",
 	"FriendlyName": "[Unreal Toolbox] Audio",
 	"Description": "An audio system used to manage the basic properties of audio files",
 	"Category": "Unreal Toolbox",
@@ -19,7 +19,7 @@
 			"Name": "UTAudio",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
-			"BlacklistPlatforms": [
+			"PlatformDenyList": [
 				"IOS",
 				"Android",
 				"HTML5",
